@@ -47,10 +47,10 @@ const Navbar = () => {
 
       {/* Contact */}
       <a
-        href="#contact"
-        onClick={() => setActiveNav('#contact')}
-        className={activeNav === '#contact' ? 'active' : ''}
-      >
+       href="#contact-us"
+       onClick={() => setActiveNav('#contact-us')}
+       className={activeNav === '#contact-us' ? 'active' : ''}
+        >
         <BiMessageSquareDetail />
       </a>
     </nav>

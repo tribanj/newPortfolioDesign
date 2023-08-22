@@ -42,7 +42,7 @@ const About = () => {
             reprehenderit accusamus reiciendis ex minima rerum obcaecati beatae
             at ullam voluptatibus, magnam voluptatum!
           </p>
-          <a href="#contact" id="contact" className="btn btn-primary"> Let's Talk </a>
+          <a href="#contact-us" id="contact" className="btn btn-primary"> Let's Talk </a>
         </div>
       </div>
     </section>

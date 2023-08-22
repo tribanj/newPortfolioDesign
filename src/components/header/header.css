@@ -1,7 +1,8 @@
 header{
     height: 100vh;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     overflow: hidden;
+    margin: 3rem;
 }
 
 .header__section{
@@ -13,7 +14,7 @@ header{
 /* CTA  */
 
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -27,7 +28,7 @@ header{
     align-items: center;
     gap: 0.8rem;
     position:absolute;
-    left: 0;
+    left: 2;
     bottom: 3rem;
 }
 
@@ -57,7 +58,7 @@ header{
 
 .scrol__down{
     position: absolute;
-    right: -1.3rem;
+    right: 10rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
