@@ -14,6 +14,9 @@
     place-items: center;
 }
 
+.about__me-image img {
+    margin-bottom: 8rem;
+}
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;

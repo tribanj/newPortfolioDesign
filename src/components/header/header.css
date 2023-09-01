@@ -46,11 +46,15 @@ header{
     height: 30rem;
     position: absolute;
     left:calc(50% - 11rem);
-    margin-top:4rem ;
+    margin-top:2rem ;
     border-radius:12rem 12rem 0 0 ;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
     margin-bottom: 10rem;
+}
+.me img{
+    height: 500px;
+    /* width: 22rem; */
 }
 
 

@@ -39,9 +39,41 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height:1.7;
-    background-image: url(../src//assets/bg-texture.png);
+    background-image: url("./assets/bg-texture.png");
 }
 
+/* video component css  */
+
+.app {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Make the container take up the full viewport height */
+    /* overflow: hidden; */
+    margin-top:-50px;
+    padding: 0;
+  }
+
+  .app::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha (0.5) for the desired opacity */
+    z-index: -2; /* Place the overlay behind other content */
+  }
+  
+  /* Style the video element to cover the entire container */
+  #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    z-index: -10 /* Place the video behind other content */
+  }
 /*========================================GENERAL STYLE=======================*/
 
 .container{

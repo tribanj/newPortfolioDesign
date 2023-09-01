@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about-removebg-preview.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
