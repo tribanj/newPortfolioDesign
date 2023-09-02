@@ -5,11 +5,17 @@ header{
     margin: 3rem;
 }
 
+.BLD{
+    font-size: 30PX;
+}
 .header__section{
    text-align: center;
    height: 100%;
    position: relative;
 
+}
+.header__container{
+    margin-top: 25px;
 }
 /* CTA  */
 
@@ -78,6 +84,10 @@ header{
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+    }
+
+    .me{
+        display: none;
     }
 
     /* Hide the following elements */
