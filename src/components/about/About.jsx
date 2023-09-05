@@ -37,12 +37,15 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            ducimus, rem atque, eligendi ut repellendus temporibus tempore
-            reprehenderit accusamus reiciendis ex minima rerum obcaecati beatae
-            at ullam voluptatibus, magnam voluptatum!
+            My name is Tribhuwan kumar. I am a student of B.tech Computer
+            Science & Engineering. I am pursuing my b.tech degree from IKGPTU
+            main campus Kapurthala. I am a final year student.I am an
+            innovative, creative thinker
           </p>
-          <a href="#contact-us" id="contact" className="btn btn-primary"> Let's Talk </a>
+          <a href="#contact-us" id="contact" className="btn btn-primary">
+            {" "}
+            Let's Talk{" "}
+          </a>
         </div>
       </div>
     </section>

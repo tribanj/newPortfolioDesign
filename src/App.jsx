@@ -9,6 +9,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import vid from "../src/assets/bg.mp4";
+// import Sw from "./components/portfolio/SwSlider/sw";
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
         <Services />
         <Portfolio />
         <Testimonials />
+        {/* <Sw /> */}
         <Contact />
         <Footer />
       </div>

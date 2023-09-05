@@ -8,10 +8,13 @@ import Proj3 from "../../../assets/portfolio3.jpg";
 import Proj4 from "../../../assets/portfolio4.jpg";
 import Proj5 from "../../../assets/portfolio3.jpg";
 import Proj6 from "../../../assets/portfolio4.jpg";
+import Proj7 from "../../../assets/portfolio4.jpg";
+import Proj8 from "../../../assets/portfolio4.jpg";
+import Proj9 from "../../../assets/portfolio4.jpg";
 import "./Sw.css"; // Import your CSS file for styling
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const images = [Proj1, Proj2, Proj3, Proj4, Proj5, Proj6];
+const images = [Proj1, Proj2, Proj3, Proj4, Proj5, Proj6, Proj7, Proj8, Proj9];
 const Sw = () => {
   const NextArrow = ({ onClick }) => {
     return (
@@ -46,6 +49,7 @@ const Sw = () => {
   };
   return (
     <div className="sw">
+    <h1>Project Image Galery</h1>
        <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>

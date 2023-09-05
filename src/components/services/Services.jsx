@@ -14,31 +14,31 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Adove PhotoShop</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Adove XD</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Figma</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Canva</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Logo Design</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Poster making</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>X</p>
             </li>
           </ul>
         </article>
@@ -50,71 +50,71 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Frontend Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Dynamic Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Static Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>SingalPage Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Multipage Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>E-Commarce Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Shopify development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Resturent Website</p>
             </li>
           </ul>
         </article>
         {/* End Of Web Development */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Content For youtube</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Content For youtube</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Not Avilable</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Not Avilable</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Not Avilable</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Not Avilable</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Not Avilable</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor</p>
+              <p>Not Avilable</p>
             </li>
           </ul>
         </article>
