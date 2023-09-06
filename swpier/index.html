@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container two">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slider-image">
+                    <img src="https://theme-land.com/sapp/demo/assets/img/screenshots/3.jpg" alt="slide 1">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-image">
+                    <img src="https://theme-land.com/sapp/demo/assets/img/screenshots/1.jpg" alt="slide 2">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-image">
+                    <img src="https://theme-land.com/sapp/demo/assets/img/screenshots/5.jpg" alt="slide 3">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-image">
+                    <img src="https://theme-land.com/sapp/demo/assets/img/screenshots/4.jpg" alt="slide 4">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="slider-image">
+                    <img src="https://theme-land.com/sapp/demo/assets/img/screenshots/2.jpg" alt="slide 5">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+
+        var swiper = new Swiper('.swiper-container.two', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            effect: 'coverflow',
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 0,
+                stretch: 100,
+                depth: 150,
+                modifier: 1.5,
+                slideShadows: false,
+            }
+        });
+
+    </script>
+</body>
+
+</html>
