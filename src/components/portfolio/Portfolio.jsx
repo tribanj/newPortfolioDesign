@@ -65,6 +65,13 @@ const data = [
     github: "https://github.com/tribanj",
     demo: "https://name-suggesting-application.netlify.app/",
   },
+  {
+    id: 9,
+    image: IMG8,
+    title: "Online shoping Application",
+    github: "https://github.com/tribanj",
+    demo: "https://electricworld.netlify.app/",
+  },
 ];
 
 const Portfolio = () => {
