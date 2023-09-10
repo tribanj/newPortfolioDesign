@@ -8,6 +8,7 @@ import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
+import IMG9 from "../../assets/shoping app.png";
 const data = [
   {
     id: 1,
@@ -67,7 +68,7 @@ const data = [
   },
   {
     id: 9,
-    image: IMG8,
+    image: IMG9,
     title: "Online shoping Application",
     github: "https://github.com/tribanj",
     demo: "https://electricworld.netlify.app/",
