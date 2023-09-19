@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    /* padding-top: 3rem; */
+    padding-top: 3rem;
     overflow: hidden;
     margin: 3rem;
 }
@@ -15,7 +15,7 @@ header{
 
 }
 .header__container{
-    margin-top: 25px;
+    margin-top: 50px;
 }
 /* CTA  */
 
@@ -49,7 +49,7 @@ header{
 .me{
     background:linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 24rem;
     position: absolute;
     left:calc(50% - 11rem);
     margin-top:2rem ;
