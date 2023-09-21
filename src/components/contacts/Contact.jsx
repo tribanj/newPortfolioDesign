@@ -38,9 +38,9 @@ const Contact = () => {
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>testmail@gmail.com</h5>
+            <h5>tribhuwanja@gmail.com</h5>
             <a
-              href="mailto:testmail@gmail.com"
+              href="mailto:tribhuwanja@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -63,7 +63,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Message here</h4>
-            <h5>1234567890</h5>
+            <h5>7700826056</h5>
             <a
               href="http://api.whatsapp.com/send?phone=7705826056"
               target="_blank"
