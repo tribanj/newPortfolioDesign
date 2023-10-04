@@ -15,7 +15,7 @@
 }
 
 .about__me-image img {
-    margin-bottom: 8rem;
+    margin-bottom: 14rem;
 }
 
 .about__me-image {
@@ -93,6 +93,9 @@
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
+    }
+    .about__me-image img {
+        margin-bottom: 12rem;
     }
 
     .about__me-image {

@@ -68,7 +68,7 @@ header{
     padding: 5rem 1.5rem 1.5rem 1.5rem;
     margin-bottom: 10rem;
 }
-.me img{
+.meimg{
     height: 500px;
     width: 22rem;
 }
@@ -101,11 +101,6 @@ header{
     header {
         height: 100vh;
     }
-
-    .me{
-        display: none;
-    }
-
     /* Hide the following elements */
     .header-socials,
     .scrol__down {
